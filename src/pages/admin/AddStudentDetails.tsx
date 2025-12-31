@@ -70,7 +70,7 @@ const AddStudentDetails = () => {
             gender: "",
             dateOfBirth: "",
             address: "",
-            image: undefined,
+            image: null,
         },
     });
 
@@ -191,7 +191,7 @@ const AddStudentDetails = () => {
                                                     const files = e.target.files;
                                                     field.onChange(files);
 
-                                                    if (files && files.length > 0) {
+                                                    if (files?.length) {
                                                         setPreview(URL.createObjectURL(files[0]));
                                                     }
                                                 }}
