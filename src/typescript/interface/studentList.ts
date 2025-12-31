@@ -1,12 +1,12 @@
 export interface studentDetails {
-    first_name?: string;
-    last_name?: string;
-    age?: number | string;
-    gender?: "male" | "female" | "other" | "";
-    phonenumber?: string;
-    date_of_birth?: string;
-    address?: string;
-    image?: string;
+  first_name?: string;
+  last_name?: string;
+  age?: number | string;
+  gender?: "male" | "female" | "other" | "";
+  phonenumber?: string;
+  date_of_birth?: string;
+  address?: string;
+  image?: string;
 }
 
 export interface StudentFormData {
@@ -17,20 +17,20 @@ export interface StudentFormData {
   gender: "" | "male" | "female" | "other";
   dateOfBirth: string;
   address: string;
-  image?: FileList | null;
+  image: FileList | null;
 }
 
 
 
-export interface Signup{
-   name: string,
-      email: string,
-      password: string,
+export interface Signup {
+  name: string,
+  email: string,
+  password: string,
 }
 
-export interface Signin{
-      email: string,
-      password: string,
+export interface Signin {
+  email: string,
+  password: string,
 }
 // export interface Student {
 //   $id: string;

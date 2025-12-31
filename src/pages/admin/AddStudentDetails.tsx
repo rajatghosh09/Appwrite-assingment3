@@ -60,7 +60,7 @@ const AddStudentDetails = () => {
         handleSubmit,
         reset,
         formState: { errors },
-    } = useForm<StudentFormData>({
+    } = useForm({
         resolver: yupResolver(StudentDetailsYupValidation),
         defaultValues: {
             firstName: "",
@@ -70,7 +70,7 @@ const AddStudentDetails = () => {
             gender: "",
             dateOfBirth: "",
             address: "",
-            image: null,
+            image: undefined,
         },
     });
 

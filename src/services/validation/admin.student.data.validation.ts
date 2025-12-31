@@ -9,5 +9,5 @@ export const StudentDetailsYupValidation = yup.object({
     phonenumber: yup.string().required("Phone number is required!!"),
     dateOfBirth: yup.string().required("date of birth is required"),
     address: yup.string().required("address is required"),
-    // image: yup.mixed().optional()
+    image: yup.mixed().optional()
 })
