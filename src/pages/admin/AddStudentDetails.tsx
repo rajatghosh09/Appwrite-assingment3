@@ -74,7 +74,7 @@ const AddStudentDetails = () => {
         },
     });
 
-    const handleDataSubmit = async (data: StudentFormData) => {
+    const handleDataSubmit = async (data:any) => {
         setLoading(true)
         console.log("Form data:", data);
 
