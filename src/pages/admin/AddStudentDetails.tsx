@@ -8,7 +8,7 @@ import { ID, Query } from "appwrite";
 import { Avatar, Box, Button, Card, CardContent, FormHelperText, MenuItem, Stack, TextField, Typography } from "@mui/material";
 import { toast } from "sonner";
 // import type { SubmitHandler } from "react-hook-form";
-import type { StudentFormData } from "../../typescript/interface/studentList";
+// import type { StudentFormData } from "../../typescript/interface/studentList";
 
 
 
